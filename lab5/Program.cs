@@ -76,10 +76,6 @@ public class Money : Pair
     }
 }
 
-class Program
-{
-    static void Main()
-    {
         Console.WriteLine("Работа с комплексными числами:");
         Pair complex1 = new Pair(3, 2); // 3 + 2i
         Pair complex2 = new Pair(1, 4); // 1 + 4i
@@ -119,5 +115,3 @@ class Program
         Money moneyMult = money1.Multiply(3);
         Console.Write("Умножение Деньги1 на 3: ");
         moneyMult.Print();
-    }
-}
